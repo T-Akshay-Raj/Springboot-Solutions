@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "7d4eb246-9601-48c8-80a6-23a5533ad6ab",
+		"name": "SpringRest Basic",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Greeting with username",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/controller-basic/api/v1/greeting?name=Raj",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"controller-basic",
+						"api",
+						"v1",
+						"greeting"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Raj"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Default greeting",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/controller-basic/api/v1/greeting",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"controller-basic",
+						"api",
+						"v1",
+						"greeting"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "message",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/controller-basic/api/v1/message",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"controller-basic",
+						"api",
+						"v1",
+						"message"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Index",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/controller-basic/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"controller-basic",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
